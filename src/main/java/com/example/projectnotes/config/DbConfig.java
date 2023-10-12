@@ -44,11 +44,6 @@ public class DbConfig {
                 .build();
 
         return em;
-        //        return builder
-//                .dataSource(dataSource)
-//                .packages("com.example.projectnotes.model")
-//                .persistenceUnit("plink")
-//                .build();
     }
 
     @Primary
